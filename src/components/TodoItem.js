@@ -1,9 +1,9 @@
 import React from "react";
 
-function TodoItem() {
+function TodoItem({ todo }) {
     return (
         <div>
-            <p>Esto es una tarea</p>
+            <p>{todo.text}</p>
         </div>
     );
 }
